@@ -1,0 +1,15 @@
+UNCC Bootcamp 
+ETL Project
+
+Team Members:
+* Akanksha Kukhraniya
+* Cameron Farquhar
+* Brad Medford
+
+Project Description/Outline
+* We plan to grab covid data from two different sources. The first source is a CSV file from Kaggle
+* (https://www.kaggle.com/gpreda/covid-world-vaccination-progress).
+* The second source is JSON data from https://covidtracking.com/data/national. 
+* We will clean the CSV file to only include data from the USA. Then we will load JSON data that
+* corresponds to the date ranges in the the CSV. Data cleanup will be handled with with Pandas. 
+* We will finish by loading this data into Postgres.
